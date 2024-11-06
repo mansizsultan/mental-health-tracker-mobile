@@ -31,10 +31,10 @@ class LeftDrawer extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 15,
-                    color: Colors.white,
                     fontWeight: FontWeight.normal,
+                    color: Colors.white,
                   ),
-                )
+                ),
               ],
             ),
           ),
@@ -56,10 +56,10 @@ class LeftDrawer extends StatelessWidget {
             // Bagian redirection ke MoodEntryFormPage
             onTap: () {
               Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => MoodEntryFormPage(),
-              ));
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => MoodEntryFormPage(),
+                  ));
             },
           ),
         ],
